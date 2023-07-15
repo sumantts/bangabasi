@@ -1,0 +1,112 @@
+table{
+	border:1px solid #cccccc;
+	width:100%;
+	
+}
+th{
+	border:1px solid #cccccc;
+}
+tr{
+	border:1px solid #cccccc;
+}
+td{
+	border:1px solid #cccccc;
+}
+body{
+	margin:30px;
+	padding:0px;	
+}
+#wrapper{
+	width:100%;
+	padding:10px 10px;
+}
+.challan-std{
+	width:31.5%;
+	float:left;
+	padding:10px 10px;
+	border:1px solid #cccccc;
+}
+.challan-bank{
+	width:31.5%;
+	float:left;
+	padding:10px 10px;
+	border:1px solid #cccccc;
+}
+.challan-clg{
+	width:31.5%;
+	float:left;
+	padding:10px 10px;
+	border:1px solid #cccccc;
+}
+.challan-3{
+	width:30%;
+	float:left;
+	padding:10px 10px;
+}
+.row{
+	width:100%;
+}
+.challan-row{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:10px;
+}
+.challan-head-row-left{
+	float:left;
+	width:30%;
+}
+.challan-head-row-right{
+	float:left;
+	width:68%;
+}
+.challan-2-1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:49%;
+	float:left;
+	padding-top:20px;
+}
+
+.challan-2-2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:49%;
+	float:right;
+	padding-top:20px;
+}
+
+.challan-3-1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	margin-top:10px;
+	padding:2px;
+}
+.challan-row-left{
+	float:left;
+	width:40%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.challan-row-right{
+	float:left;
+	width:40%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.chal-no{
+	padding-top:5px;
+	height:35px;
+}
+.txt-size{
+	font-size:18px;
+}
+.txt-center{
+	text-align:center;
+}
+.border{
+	border:1px solid #cccccc;
+}
+.clear{
+	clear:both;	
+}

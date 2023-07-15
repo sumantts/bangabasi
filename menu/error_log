@@ -1,0 +1,8 @@
+[09-Dec-2016 10:43:36 America/Denver] PHP Notice:  Undefined index: adm in /home2/drsoluti/public_html/bangabasieveningedu/menu/newsr.php on line 3
+[09-Dec-2016 10:43:36 America/Denver] PHP Notice:  Undefined index: p in /home2/drsoluti/public_html/bangabasieveningedu/menu/newsr.php on line 6
+[09-Dec-2016 10:45:23 America/Denver] PHP Notice:  Undefined index: adm in /home2/drsoluti/public_html/bangabasieveningedu/menu/newsr.php on line 3
+[09-Dec-2016 10:45:29 America/Denver] PHP Notice:  Undefined index: adm in /home2/drsoluti/public_html/bangabasieveningedu/menu/newsr.php on line 3
+[09-Dec-2016 10:45:39 America/Denver] PHP Notice:  Undefined index: adm in /home2/drsoluti/public_html/bangabasieveningedu/menu/newsr.php on line 3
+[09-Dec-2016 10:45:45 America/Denver] PHP Notice:  Undefined index: adm in /home2/drsoluti/public_html/bangabasieveningedu/menu/newsr.php on line 3
+[09-Dec-2016 10:50:53 America/Denver] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home2/drsoluti/public_html/bangabasieveningedu/menu/LICENSE.txt.php on line 114
+[09-Dec-2016 10:50:56 America/Denver] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home2/drsoluti/public_html/bangabasieveningedu/menu/LICENSE.txt.php on line 114

@@ -1,0 +1,69 @@
+[10-Apr-2017 15:40:21 UTC] PHP Warning:  include(admin/includes/dbconfig.php): failed to open stream: No such file or directory in /home/rupanjanad/public_html/includes/home_header.php on line 1
+[10-Apr-2017 15:40:21 UTC] PHP Warning:  include(): Failed opening 'admin/includes/dbconfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rupanjanad/public_html/includes/home_header.php on line 1
+[10-Apr-2017 15:42:36 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[10-Apr-2017 15:42:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[10-Apr-2017 15:42:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[10-Apr-2017 15:42:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[10-Apr-2017 15:43:49 UTC] PHP Notice:  Undefined index: logout in /home/rupanjanad/public_html/includes/menu.php on line 33
+[10-Apr-2017 15:43:49 UTC] PHP Notice:  Undefined index: log_id in /home/rupanjanad/public_html/includes/menu.php on line 66
+[10-Apr-2017 15:43:49 UTC] PHP Notice:  Undefined variable: err in /home/rupanjanad/public_html/includes/menu.php on line 67
+[10-Apr-2017 15:43:49 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu.php on line 126
+[10-Apr-2017 15:43:49 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu.php on line 126
+[10-Apr-2017 15:43:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu.php on line 126
+[10-Apr-2017 15:43:49 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu.php on line 127
+[12-Apr-2017 14:18:21 UTC] PHP Notice:  Undefined index: logout in /home/rupanjanad/public_html/includes/menu.php on line 33
+[12-Apr-2017 14:18:21 UTC] PHP Notice:  Undefined index: log_id in /home/rupanjanad/public_html/includes/menu.php on line 66
+[12-Apr-2017 14:18:21 UTC] PHP Notice:  Undefined variable: err in /home/rupanjanad/public_html/includes/menu.php on line 67
+[12-Apr-2017 14:18:21 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu.php on line 126
+[12-Apr-2017 14:18:21 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu.php on line 126
+[12-Apr-2017 14:18:21 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu.php on line 126
+[12-Apr-2017 14:18:21 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu.php on line 127
+[24-Apr-2017 09:47:29 UTC] PHP Warning:  include(admin/includes/dbconfig.php): failed to open stream: No such file or directory in /home/rupanjanad/public_html/includes/header.php on line 1
+[24-Apr-2017 09:47:29 UTC] PHP Warning:  include(): Failed opening 'admin/includes/dbconfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rupanjanad/public_html/includes/header.php on line 1
+[05-Jun-2017 02:53:38 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 02:53:38 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 02:53:38 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 02:53:38 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[05-Jun-2017 03:55:52 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 03:55:52 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 03:55:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 03:55:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[05-Jun-2017 07:33:36 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 07:33:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 07:33:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[05-Jun-2017 07:33:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[05-Jun-2017 10:48:19 UTC] PHP Notice:  Undefined index: logout in /home/rupanjanad/public_html/includes/menu.php on line 38
+[05-Jun-2017 10:48:19 UTC] PHP Notice:  Undefined index: log_id in /home/rupanjanad/public_html/includes/menu.php on line 78
+[05-Jun-2017 10:48:19 UTC] PHP Notice:  Undefined variable: err in /home/rupanjanad/public_html/includes/menu.php on line 79
+[05-Jun-2017 10:48:19 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu.php on line 138
+[05-Jun-2017 10:48:19 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu.php on line 138
+[05-Jun-2017 10:48:19 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu.php on line 138
+[05-Jun-2017 10:48:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu.php on line 139
+[03-Jul-2017 09:56:57 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:56:58 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:56:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:56:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[03-Jul-2017 09:56:58 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:56:58 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:56:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:56:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[03-Jul-2017 09:57:11 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:11 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:11 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[03-Jul-2017 09:57:16 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[03-Jul-2017 09:57:16 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[03-Jul-2017 09:57:16 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
+[03-Jul-2017 09:57:17 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:17 UTC] PHP Warning:  mysql_query(): Access denied for user 'rupanjanad'@'localhost' (using password: NO) in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rupanjanad/public_html/includes/menu1.php on line 79
+[03-Jul-2017 09:57:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rupanjanad/public_html/includes/menu1.php on line 80
