@@ -19,8 +19,6 @@ if(isset($_POST["sub"]))
 	}
 	header("location:?go=add-gallery&add=ok");
 }
-
-
 ?>
 <script>
 tinymce.init({selector:'textarea'});
