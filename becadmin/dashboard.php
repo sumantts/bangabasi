@@ -136,6 +136,16 @@ switch($page){
 	break;
 	case "edit-banner":
 	include("pages/edit-banner.php");
+	break;	
+	
+	case "mou":
+	include("pages/mou.php");
+	break;	
+	case "add-mou":
+	include("pages/add-mou.php");
+	break;	
+	case "edit-mou":
+	include("pages/edit-mou.php");
 	break;
 	
 	default:

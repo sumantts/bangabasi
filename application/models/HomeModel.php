@@ -97,6 +97,17 @@ class HomeModel extends CI_Model{
 		}
 	}//end of getAllDownload
 	
+	public function getAllDownloadMou(){
+		$query = $this->db->order_by('id','DESC');
+		$query = $this->db->get('mou_details');
+		if($query->num_rows() > 0){
+			$alldata = $query->result();
+			return $alldata;
+		}else{
+			return NULL;
+		}
+	}//end 
+	
 	public function getGalleryPhotoes(){
 		$query = $this->db->order_by('id','DESC');
 		$query = $this->db->get('photo_gallery');

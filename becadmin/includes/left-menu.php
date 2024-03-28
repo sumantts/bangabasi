@@ -26,6 +26,7 @@
 								<li><a href="?go=download-forms"> AQAR Forms</a></li>
 								<li><a href="?go=gallery"> Gallery</a></li>
 								<li><a href="?go=banner"> Banner</a></li>
+								<li><a href="?go=mou">MOU</a></li>
                             </ul>
                         </li>
 						

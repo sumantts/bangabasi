@@ -84,7 +84,6 @@ class Home extends CI_Controller{
 	
 	//aqar
 	public function aqar(){
-
 		$allDownloads = $this->HomeModel->getAllDownload();
 		$alldata = array(
 			'downloads' => $allDownloads
@@ -94,6 +93,18 @@ class Home extends CI_Controller{
 		$this->load->view('pages/aqar', $alldata);
 		$this->load->view('includes/footer');
 	}//end of aqar
+	
+	//MOU
+	public function mou(){
+		$allDownloadsMou = $this->HomeModel->getAllDownloadMou();
+		$alldata = array(
+			'downloads' => $allDownloadsMou
+		);
+		$this->load->view('includes/header');
+		$this->load->view('includes/menu');
+		$this->load->view('pages/mou', $alldata);
+		$this->load->view('includes/footer');
+	}//end of mou
 	
 	//Department
 	public function onDepartmentDetails($id){
