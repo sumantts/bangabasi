@@ -5,8 +5,8 @@ $get_data_res = mysqli_query($mysqli, $get_data_sql);
 $get_data_row = mysqli_fetch_array($get_data_res);
 
 if(isset($_POST["upd"]))
-{
-	$dept_desc = $_POST["dept_desc"];
+{	
+	$dept_desc = $mysqli->real_escape_string($_POST['dept_desc']);
 	mysqli_query($mysqli, "UPDATE dept_desc SET dept_description = '" .$dept_desc. "' WHERE id = '" .$id. "'");
 	header("location:?go=edit-dept-desc&upd=ok&id=$id");
 }

@@ -2,21 +2,21 @@
 if(isset($_POST["sub"]))
 {
 	$dept_id = $_POST["dept_id"];
+	$dept_desc = $mysqli->real_escape_string($_POST['dept_desc']);
+	$sql = "INSERT INTO dept_desc (dept_id, dept_description) VALUES ('" .$dept_id. "', '" .$dept_desc. "')";
+	mysqli_query($mysqli, $sql);
+	/*
 	$photonames = $_FILES["photos"]["name"];
-	$dept_desc = $_POST["dept_desc"];
 	mkdir("dept_images/".$dept_id);
 	$newfilepath = "dept_images/$dept_id/";
 	$photo_stream = implode('|',$photonames);
-	$sql = "INSERT INTO dept_desc (dept_id, photo_name, dept_description) VALUES ('" .$dept_id. "', '" .$photo_stream. "', '" .$dept_desc. "')";
-	mysqli_query($mysqli, $sql);
 	for($i = 0; $_FILES["photos"]["name"][$i] == true; $i++)
-	{
-		
+	{		
 		$photoName = $_FILES["photos"]["name"][$i];
 		$photoSize = $_FILES["photos"]["size"][$i];	
 		$tem_path = $_FILES["photos"]["tmp_name"][$i];
 		move_uploaded_file($tem_path,"$newfilepath/$photoName");
-	}
+	}*/
 	header("location:?go=add-dept-desc&add=ok");
 }
 
@@ -82,10 +82,10 @@ tinymce.init({selector:'textarea'});
                     												
 					
 					
-					<div class="form-group col-md-6">
+					<!-- <div class="form-group col-md-6">
                         <label for="exampleInputFile">Gallery Images (To upload multiple file press Ctrl)</label>
                         <input type="file" name="photos[]" multiple>
-                    </div>
+                    </div> -->
 					
 					<div class="form-group col-md-12">
                         <label for="exampleInputEmail1">Description</label>

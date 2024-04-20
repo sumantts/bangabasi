@@ -67,7 +67,6 @@ if($_GET["id"])
         <th>Sl. No</th>
 		<th>Dept. Name</th>
         <th>Description</th>
-		<th>Photo</th>		
         <th>Actions</th>
     </tr>
     </thead>
@@ -90,15 +89,15 @@ if($_GET["id"])
 		echo $row_depname["cc_name"];
 		?>
 		</td>
-		<td class="center"><div style="width:500px; overflow:scroll;"><?=$row_fotu->dept_description?></div></td>
-        <td class="center">
+		<td class="center"><div style="width:100%; overflow:scroll;"><?=$row_fotu->dept_description?></div></td>
+        <!-- <td class="center">
 		<div style="margin-top:3px;">
 		<?php
 		
-		$photo_image = explode('|',$row_fotu->photo_name);
-		$count = sizeof($photo_image);
-		foreach($photo_image as $key => $value)
-		{
+		// $photo_image = explode('|',$row_fotu->photo_name);
+		// $count = sizeof($photo_image);
+		// foreach($photo_image as $key => $value)
+		// {
 		
 		?>
 			<div style="background:#000; width:50px; height:50px; text-align:center; float:left; margin-right:5px;">
@@ -106,11 +105,11 @@ if($_GET["id"])
 			</div>
 			
 		<?php 
-		} 
+		//} 
 		?>
 		</div>
 		<div style="clear:both;"></div>
-		</td>
+		</td> -->
 		
 		
         <td class="center">
