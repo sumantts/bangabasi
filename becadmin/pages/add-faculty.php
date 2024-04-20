@@ -17,9 +17,10 @@ if(isset($_POST["submit"]))
 	$phd_stdn = $_POST["phd_stdn"];
 	$medel = $_POST["medel"];
 	$hobby = $_POST["hobby"];
+	$vidwan_profile = $_POST["vidwan_profile"];
 	$pro_pic = $_FILES["pro_pic"]["name"]; 	
 	
-	$sql = "INSERT INTO faculty (dept_id, name_quali, designation, email_id, contact_no, specialization, interest_area, teaching_exp, paper_publish, book_publish, paper_conf, participation_conf, organize_conf, phd_stdn, medel, hobby) VALUES ('" .$dept_id. "', '" .$name_quali. "', '" .$designation. "', '" .$email_id. "', '" .$contact_no. "', '" .$specialization. "', '" .$interest_area. "', '" .$teaching_exp. "', '" .$paper_publish. "', '" .$book_publish. "', '" .$paper_conf. "', '" .$participation_conf. "', '" .$organize_conf. "', '" .$phd_stdn. "', '" .$medel. "', '" .$hobby. "')";
+	$sql = "INSERT INTO faculty (dept_id, name_quali, designation, email_id, contact_no, specialization, interest_area, teaching_exp, paper_publish, book_publish, paper_conf, participation_conf, organize_conf, phd_stdn, medel, hobby, vidwan_profile) VALUES ('" .$dept_id. "', '" .$name_quali. "', '" .$designation. "', '" .$email_id. "', '" .$contact_no. "', '" .$specialization. "', '" .$interest_area. "', '" .$teaching_exp. "', '" .$paper_publish. "', '" .$book_publish. "', '" .$paper_conf. "', '" .$participation_conf. "', '" .$organize_conf. "', '" .$phd_stdn. "', '" .$medel. "', '" .$hobby. "', '" .$vidwan_profile. "')";
 	mysqli_query($mysqli, $sql);
 	
 	$id = mysqli_insert_id($mysqli);
@@ -162,6 +163,11 @@ if(isset($_POST["submit"]))
 				<div class="form-group has-success col-md-4">
                     <label class="control-label" for="inputSuccess1">Profile Picture</label>
                     <input type="file" class="form-control" id="pro_pic" name="pro_pic" value="<?php echo $_POST["pro_pic"]?>">
+                </div>
+				
+				<div class="form-group has-success col-md-4">
+                    <label class="control-label" for="inputSuccess1">Vidwan Profile</label>
+                    <input type="text" class="form-control" id="vidwan_profile" name="vidwan_profile" value="<?php echo $_POST["vidwan_profile"]?>">
                 </div>
 				             
 				<div class="form-group has-error col-md-4">

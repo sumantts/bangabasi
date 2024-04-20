@@ -23,9 +23,10 @@ if(isset($_POST["update"]))
 	$phd_stdn = $_POST["phd_stdn"];
 	$medel = $_POST["medel"];
 	$hobby = $_POST["hobby"];
+	$vidwan_profile = $_POST["vidwan_profile"];
 	$pro_pic = $_FILES["pro_pic"]["name"]; 	
 	
-	$sql = "UPDATE faculty SET dept_id = '" .$dept_id. "', name_quali = '" .$name_quali. "', designation = '" .$designation. "', email_id = '" .$email_id. "', contact_no = '" .$contact_no. "', specialization = '" .$specialization. "', interest_area = '" .$interest_area. "', teaching_exp = '" .$teaching_exp. "', paper_publish = '" .$paper_publish. "', book_publish = '" .$book_publish. "', paper_conf = '" .$paper_conf. "', participation_conf = '" .$participation_conf. "', organize_conf = '" .$organize_conf. "', phd_stdn = '" .$phd_stdn. "', medel = '" .$medel. "', hobby = '" .$hobby. "' WHERE id = '" .$id. "'";
+	$sql = "UPDATE faculty SET dept_id = '" .$dept_id. "', name_quali = '" .$name_quali. "', designation = '" .$designation. "', email_id = '" .$email_id. "', contact_no = '" .$contact_no. "', specialization = '" .$specialization. "', interest_area = '" .$interest_area. "', teaching_exp = '" .$teaching_exp. "', paper_publish = '" .$paper_publish. "', book_publish = '" .$book_publish. "', paper_conf = '" .$paper_conf. "', participation_conf = '" .$participation_conf. "', organize_conf = '" .$organize_conf. "', phd_stdn = '" .$phd_stdn. "', medel = '" .$medel. "', hobby = '" .$hobby. "', vidwan_profile = '" .$vidwan_profile. "' WHERE id = '" .$id. "'";
 	mysqli_query($mysqli, $sql);
 		
 	if($pro_pic)
@@ -166,6 +167,11 @@ if(isset($_POST["update"]))
 				<div class="form-group has-success col-md-4">
                     <label class="control-label" for="inputSuccess1">Profile Picture</label>
                     <input type="file" class="form-control" id="pro_pic" name="pro_pic" value="<?php echo $get_data_row["pro_pic"]?>">
+                </div>
+				
+				<div class="form-group has-success col-md-4">
+                    <label class="control-label" for="inputSuccess1">Vidwan Profile</label>
+                    <input type="text" class="form-control" id="vidwan_profile" name="vidwan_profile" value="<?php echo $get_data_row["vidwan_profile"]?>">
                 </div>
 				             
 				<div class="form-group has-error col-md-4">

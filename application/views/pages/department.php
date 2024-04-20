@@ -140,6 +140,10 @@ foreach($dept_des as $row){}
 					<li><strong>Research projects</strong> :  <?php echo $faculty->hobby; ?></li>
 					<?php } ?>
 					
+					<?php if($faculty->vidwan_profile){?>
+					<li><strong>Vidwan Profile</strong> :  <a href="<?php echo $faculty->vidwan_profile; ?>" target="_blank">Click Here</a></li>
+					<?php } ?>
+					
 					</ol>  
                     </td>
                   </tr>
